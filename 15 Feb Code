@@ -1,5 +1,5 @@
 #1480. Running Sum of 1d Array
-https://leetcode.com/problems/running-sum-of-1d-array/
+# https://leetcode.com/problems/running-sum-of-1d-array/
 # Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).Return the running sum of nums.
 #Example 1:
 #Input: nums = [1,2,3,4]
@@ -7,6 +7,9 @@ https://leetcode.com/problems/running-sum-of-1d-array/
 #Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
 
 ##solution
+from collections import Counter
+
+
 class Solution:
     def runningSum(self, nums):
         output = [0] * len(nums)
@@ -17,13 +20,13 @@ class Solution:
 
 
 #1481. Least Number of Unique Integers after K Removals 
-https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/
+# https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/
 #Given an array of integers arr and an integer k. Find the least number of unique integers after removing exactly k elements.
 #Example 1:
 
-Input: arr = [5,5,4], k = 1
-Output: 1
-Explanation: Remove the single 4, only 5 is left.
+# Input: arr = [5,5,4], k = 1
+# Output: 1
+# Explanation: Remove the single 4, only 5 is left.
 
 ##solution
 class Solution:
