@@ -7,6 +7,7 @@
 #Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
 
 ##solution
+from ast import List
 from collections import Counter
 
 
